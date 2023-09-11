@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Actividad 01</title>
+		<link rel="stylesheet" href=".\css\styles01_pers.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,700&display=swap"
+		  rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<section class="textos-header">
+				<h1>ULTIMATE FIGHT</h1>
+			</section>
+		</header>
+		
+	<main>
+
+		<section class="sobre-nosotros">
+			<h2 class="titulo">Nuestras disiplinas</h2>
+			<div class="contenedor-nosotros">
+				<img src="https://previews.123rf.com/images/malchev/malchev1605/malchev160500001/56832117-ilustraci%C3%B3n-del-luchador-de-muay-thai.jpg" alt="aca va una imagen" class="imagen-sobre-nosotros">
+
+			<div class="contenido-textos">	
+				<p>Llevamos a cabo una serie de entrenamiemtos en diversas artes marciales durante todo el año.</p>
+				<p>Tenga en cuenta que para asistir a los siguientes disiplinas debe estar inscrito </p>
+				
+				<div class="lista">				
+					<ul>
+					<li>Muay Thai</li>
+					<li>BJJ</li>
+					<li>MMA</li>
+					<li>kickBoxing</li>
+					</ul>
+				</div>
+				</div>
+
+			</div>
+		</section>	
+
+		
+
+		<section class="calendario">
+		<div class="contenedor">
+		<h2 class="titulo">Horarios</h2>
+		<table>
+			<tr class="head">
+				<th></th>
+				<th>Bogotá</th>
+				<th>Ibagué</th>
+				<th>Medellín</th>
+			</tr>
+			<tr>
+				<th>MMA</th>
+				<td>Sab, 4 Feb 2023<br />11am - 2pm</td>
+				<td>Sab, 3 Mar 2023<br />11am - 2pm</td>
+				<td>Sab, 17 Mar 2023<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th>Muay Thai</th>
+				<td>Sab, 7 Abr 2023<br />11am - 1pm</td>
+				<td>Sab, 5 May 2023<br />11am - 1pm</td>
+				<td>Sab, 19 May 2023<br />11am - 1pm</td>
+			</tr>
+			<tr>
+				<th>BJJ</th>
+				<td>Sab, 9 Jun 2023<br />11am - 2pm</td>
+				<td>Sab, 7 Jul 2023<br />11am - 2pm</td>
+				<td>Sab, 21 Jul 2023<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th>kickBoxing</th>
+				<td>Sat, 4 Ago 2023<br />11am - 4pm</td>
+				<td>Sat, 8 Sep 2023<br />11am - 4pm</td>
+				<td>Sat, 15 Sep 2023<br />11am - 4pm</td>
+			</tr>
+		</table>
+	</div>
+	</section>
+
+	<section class="formulario">
+	<div class="contenedor">
+		<h2 class="titulo">Registrese en la <br>clase de tu eleccion</h2>
+		<form action="actividad_02_personal.html" method="get">
+			<fieldset>
+
+				<p><label class="title" for="name">Su Nombre:</label>
+					 <input type="text" name="name" id="name"><br />
+					 <label class="title" for="email">Su correo:</label>
+					 <input type="text" name="email" id="email"></p>
+				<p><label for="location" class="title">Su centro cercano:</label>
+					 <select name="location" id="location">
+						 <option value="bo">Bogotá</option>
+						 <option value="ib">Ibagué</option>
+						 <option value="me">Medellín</option>
+					 </select></p>
+				<span class="title">Es Miembro de la Comunidad?</span>
+				<label><input type="radio" name="member" value="si" /> Si</label>
+				<label><input type="radio" name="member" value="no" /> No</label></p>
+			</fieldset>
+ 	    <div class="submit"><input type="submit" value="Registro" /></div>
+		</form>
+	</div>
+	</section>
+		
+	</main>
+	</body>
+</html>

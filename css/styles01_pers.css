@@ -1,0 +1,228 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'open sans';
+  background-color: #000;
+
+  
+}
+h1{
+
+  font-size: 80px;
+  color: #000;
+  font-style: oblique;
+
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+  color: #fff;
+ 
+
+
+}
+
+/*headre*/
+header{
+  width:100% ;
+  height: 400px;
+  background: #000046;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.568) 0%, rgba(255,0,0,1) 100%, rgba(0,212,255,1) 100%), url(https://as01.epimg.net/masdeporte/imagenes/2021/09/26/polideportivo/1632613646_090669_1632633149_noticia_normal_recorte1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+
+}
+
+header .textos-header{
+  display: flex;
+  height: 230px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/*Sobre nosotros*/
+ .titulo{
+ 
+  display: flex;
+  text-align: center;
+  justify-content:center;
+}
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+  
+p{
+  color: #666666;
+}
+
+
+.contenedor-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen-sobre-nosotros {
+  width: 18%;
+}
+
+.sobre-nosotros .contenido-textos{
+  width: 46%;
+  
+}
+
+
+
+.sobre-nosotros .lista{
+  margin-top: 100px;
+  background: #c90000;
+  padding: 40px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: left;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  list-style-image: url('../images/icon-plus.png');
+  line-height: 1.6em;
+}
+
+.sobre-nosotros .lista li{
+  color: #000;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+
+
+/*Fechas*/
+
+.calendario
+{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+
+table {
+  margin: 40px;
+  border-spacing: 0px;
+  display: inline-block;
+  justify-content: space-between;
+}
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
+}
+th,
+td {
+  text-align: left;
+  background-color: #f86c6c;
+  border-top: 1px solid #f1f8fe;
+  border-bottom: 1px solid #cbd2d8;
+  border-right: 1px solid #cbd2d8;
+}
+tr.head th {
+  color: #fff;
+  background-color: #ff0000;
+  border-bottom: 2px solid #ff4d4d;
+  border-right: 1px solid #ff4d4d;
+  border-top: 1px solid #ff4a4a;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666666;
+  letter-spacing: 0.15em;
+}
+td {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+tr.even td,
+tr.even th {
+  background-color: #f86c6c;
+}
+tr.head th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+/*Formulario*/
+.formulario{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #c90000;
+  
+  
+}
+
+fieldset{
+
+  background-color: #000;
+  border-radius: 5px;
+  color: #666666;
+    
+  
+}
+
+
+input[type='text'] {
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
+}
+input[type='text']:focus,
+input[type='text']:hover {
+  background-color: #d0e2f0;
+  border: 1px solid #999999;
+}
+input[type='submit'] {
+  border: 1px solid #515251;
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  width: 80%;
+  
+}
+input[type='submit']:hover {
+  border: 1px solid #eaebf0;
+  background-color: #979797;
+  color: #c90000;
+  cursor: pointer;
+}
+
+.submit{
+  margin: 40px;
+}
+
